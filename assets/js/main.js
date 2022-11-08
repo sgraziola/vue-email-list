@@ -5,6 +5,7 @@ createApp({
     data(){
         return{
             randomEmails: [],
+            maxEmails : 10,
         }
     },
 

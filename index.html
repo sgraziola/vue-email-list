@@ -10,7 +10,9 @@
 <body>
     <h1>Email Adresses:</h1>
     <ul id="app">
-        <li></li>
+        <li v-for="email in randomEmails">
+            {{email}}
+        </li>
     </ul>
 
     <!-- Axios CDN -->
